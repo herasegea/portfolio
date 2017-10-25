@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="250px" height="250px" viewBox="0 0 250 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 6</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="22.1187887%" y1="16.5275197%" x2="71.824059%" y2="77.4386722%" id="linearGradient-1">
+            <stop stop-color="#FF6F08" offset="0%"></stop>
+            <stop stop-color="#FF0887" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="pruebas" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-3108.000000, -1090.000000)">
+            <g id="Group-6" transform="translate(3108.000000, 1090.000000)">
+                <rect id="Rectangle-6" fill="url(#linearGradient-1)" x="0" y="0" width="250" height="250" rx="38"></rect>
+                <text id="wer" font-family="Pattaya-Regular, Pattaya" font-size="144" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="18" y="163">w</tspan>
+                    <tspan x="113.203125" y="163" letter-spacing="8.8">er</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

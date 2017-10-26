@@ -170,7 +170,8 @@ footer{
   height: 25vh;
   display: flex;
   align-self: center;
-  background-color: #000070;
+  border: 3px solid #000070;
+
 
 }
 

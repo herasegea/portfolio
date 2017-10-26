@@ -15,6 +15,8 @@ body{
   width: 100%;
   height: 5vh;
   background-color: #ECECEC;
+  position: fixed;
+  top:0;
 }
 
 .part1{
@@ -38,15 +40,39 @@ body{
 }
 
 
-
-main{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex: 2;
-  width: 100%;
-  height: 80vh;
+.title-block{
+  display: block;
+  float: left;
+  width: 50%;
+  margin-top: 8vh;
+  margin-left: 3%;
+  font-size: 2em;
+  font-weight: 900;
+  color: #00FF5F;
 }
+.nostyle{
+  color: #00FF5F;
+}
+
+.nostyle:visited{
+  color: #00FF5F;
+}
+
+.nostyle:hover{
+background-color:#000070;
+text-decoration: none;
+}
+
+.logo-work{
+  display: block;
+  float: right;
+  width: 21%;
+  position: fixed;
+  margin-top: 8vh;
+  right: 0;
+}
+
+
 
 /*Todos estos textos abarcan el footer*/
 footer{
@@ -101,92 +127,19 @@ footer{
   width: 100%;
 }
 
-/*Todos estos textos abarcan el MENU*/
+/*Todos estos textos abarcan el contenido*/
 
-.menu-container{
-  display: flex;
-  flex-direction: column;
+.container{
+  clear: both;
   width: 100%;
-  height: auto;
-  right: 0;
-}
-
-.title{
   display: flex;
-  height: 20.5vh;
-  width: 100%;
-  background-color: #00FF5F;
-  color: #000070;
-  padding-left: 3vw;
-}
-
-.title:hover{
-  background-color: #000070;
-  color: #00FF5F;
-}
-
-
-
-.title-block{
-  display: flex;
-  align-items: center;
-  width: 60%;
-  font-size: 4em;
-  font-weight: 900;
-}
-
-
-.blocks{
-  display: flex;
-  width: 38%;
-  align-items: center;
-  padding-right: 2%;
-}
-
-.contenido {
-  height: 0px;
-  overflow: hidden;
-  transition: height 1s ease-in-out;
-  display: flex;
-  flex-direction: row;
   justify-content: center;
-  flex-wrap: wrap;
-  width: 100%;
 }
 
-.contenido.open {
-  height: auto;
+.video{
+    margin-top: 5%;
 }
 
-.links{
-  text-decoration: none;
-  width: 100%;
-}
-
-.logo{
-  margin-top: 10vh;
-  margin-bottom: 10vh;
-  width: 30vw;
-  height: 25vh;
-  display: flex;
-  align-self: center;
-  background-color: #000070;
-
-}
-
-.muestra{
-  width: 50%;
-  height: 100%;
-  transition: all 0.5s ease;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-}
-
-.muestra:hover{
-  -webkit-transform: scale(1.3);
-  -ms-transform: scale(1.3);
-  transform: scale(1.3);
-  width: 80%;
+.introduccion{
+    margin-top: 10%;
 }

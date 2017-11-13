@@ -170,28 +170,26 @@ footer{
   height: 25vh;
   display: flex;
   align-self: center;
+  align-items: center;
+  justify-content: center;
   border: 3px solid #000070;
 
 
 }
 
 .muestra{
-  width: 50%;
-  height: 100%;
   transition: all 0.5s ease;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 80%;
 
 }
 
 .muestra2{
-  width: 30%;
-  height: 100%;
   transition: all 0.5s ease;
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 50%;
 }
 
 .muestra2:hover{

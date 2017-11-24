@@ -62,9 +62,11 @@ footer{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  flex: 3;
-  height: 15vh;
+  height: 13vh;
   width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: #ECECEC;
 }
 
 
@@ -97,7 +99,8 @@ footer{
 }
 
 .block:hover {
-  background-color: #00FF5F;
+  background-color: #000070;
+  color: #00FF5F;
 }
 
 .mail{
@@ -105,11 +108,4 @@ footer{
   justify-content: center;
   border-top: solid 1px black;
   width: 100%;
-}
-
-
-.animation {
-  animation-duration: 3s;
-  animation-name: slidein;
-  animation-iteration-count: infinite;
 }

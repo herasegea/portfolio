@@ -35,7 +35,7 @@ body{
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding-right: 2vh;
+  padding-right: 2vw;
   border-bottom: solid 1px;
 }
 
@@ -140,6 +140,14 @@ text-decoration: none;
   padding-bottom: 10%;
 }
 
+.introduccion2{
+  width: 80%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+
+
 .contenidos{
   display: flex;
   flex-direction: column;
@@ -173,6 +181,14 @@ text-decoration: none;
 }
 
 .contenidos5{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 70%;
+  margin-bottom: 60%;
+}
+
+.contenidos5x{
   display: flex;
   flex-direction: column;
   width: 80%;
@@ -229,6 +245,8 @@ text-decoration: none;
   flex-direction: row;
 }
 
+
+
 .parrafos{
 padding-right: 5%;
 padding-top: 20%;
@@ -236,6 +254,19 @@ padding-left: 0.5%;
 text-align: justify;
 }
 
+.parrafos2{
+padding-right: 5%;
+padding-top: 20%;
+padding-left: 0.5%;
+text-align: justify;
+}
+
+.parrafos2{
+padding-right: 5%;
+padding-top: 20%;
+padding-left: 0.5%;
+text-align: justify;
+}
 
 
 .imagen1{
@@ -263,16 +294,7 @@ margin-top: 5%;
 
 
 
-.gallery {
-    width: 100%;
-    height: auto;
-    transition: 500ms;
-    margin-bottom: 10px;
-    opacity: 0.8;
-    page-break-inside: avoid; /* For Firefox. */
-    -webkit-column-break-inside: avoid; /* For Chrome & friends. */
-    break-inside: avoid; /* For standard browsers like IE. :-) */
-}
+
 /* Style the Image Used to Trigger the Modal */
 #myImg {
     border-radius: 5px;
@@ -398,4 +420,348 @@ margin-top: 5%;
     -webkit-transform: translateX(-8px) translateY(-8px);
             transform: translateX(-8px) translateY(-8px);
   }
+}
+
+
+@media screen and (max-width: 500px) and (min-width: 320px) {
+
+
+  body{
+    font-family: 'Overpass Mono', monospace;
+    height: 100vh;
+    font-size: 0.6em;
+    font-weight: normal;
+    color: #000070;
+  }
+
+  .part1{
+    justify-content: center;
+
+  }
+  .part2{
+    justify-content: center;
+    padding-right: 0vw;
+    padding-left: 5%;
+  }
+
+
+  .container{
+    margin-bottom: 10%;
+    font-size: 1.5em;
+    line-height: 20pt;
+    height: auto;
+  }
+
+
+  .font{
+    font-size: 0.7em;
+  }
+
+  .title-block{
+    font-size: 1em;
+  }
+
+  .logo-work{
+    width: 30%;
+  }
+
+
+  .contenidos{
+  flex-direction: row;
+  margin-bottom: 30%;
+  }
+
+  .contenidos2{
+  flex-direction: row;
+  margin-bottom: 30%;
+  }
+
+  .contenidos3{
+  flex-direction: row;
+  margin-bottom: 30%;
+  }
+
+  .contenidos4{
+    flex-direction: row;
+    margin-bottom: 30%;
+  }
+
+  .contenidos5{
+  flex-direction: row;
+  margin-bottom: 30%;
+
+  }
+
+  .contenidos5x{
+    margin-bottom: 0%;
+  }
+
+  .contenidos6{
+  flex-direction: row;
+  margin-bottom: 30%;
+  }
+
+  .contenidos7{
+    flex-direction: row;
+    margin-bottom: 30%;
+  }
+
+  .contenidos8{
+    flex-direction: row;
+    margin-bottom: 30%;
+  }
+
+  .titulo{
+  font-size: 1.6em;
+  }
+
+  .titulo2{
+  font-size: 1.6em;
+  }
+
+
+  .imagen-texto{
+    flex-direction: column;
+  }
+
+  .parrafos{
+  padding-right: 5%;
+  padding-top: 25%;
+  padding-left: 0.5%;
+  text-align: justify;
+  }
+
+
+
+  .imagen1{
+    width: 100%;
+    height: auto;
+    margin-top: 10%;
+  }
+
+  .imagen2{
+    width: 100%;
+    height: auto;
+    padding-top: 0%;
+  }
+
+
+  iframe{
+    width: 250px;
+    height: 200px;
+    margin-top: 10%;
+  }
+  #myImg{
+    margin-top: 10%;
+
+  }
+
+  .introduccion2{
+    width: 80%;
+    padding-bottom: 10%;
+  }
+
+  .parrafos2{
+  padding-right: 5%;
+  padding-top: 35%;
+  padding-left: 0.5%;
+  text-align: justify;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 500px) {
+  body{
+    font-family: 'Overpass Mono', monospace;
+    height: 100vh;
+    font-size: 0.6em;
+    font-weight: normal;
+    color: #000070;
+  }
+
+  .part1{
+    justify-content: center;
+
+  }
+  .part2{
+    justify-content: center;
+    padding-right: 0vw;
+    padding-left: 5%;
+  }
+
+
+  .container{
+    margin-bottom: 10%;
+    font-size: 1.5em;
+    line-height: 20pt;
+    height: auto;
+  }
+
+
+  .font{
+    font-size: 0.7em;
+  }
+
+  .title-block{
+    font-size: 1em;
+  }
+
+  .logo-work{
+    width: 30%;
+  }
+
+
+  .contenidos{
+  flex-direction: row;
+  margin-bottom: 30%;
+  }
+
+  .contenidos2{
+  flex-direction: row;
+  margin-bottom: 30%;
+  }
+
+  .contenidos3{
+  flex-direction: row;
+  margin-bottom: 30%;
+  }
+
+  .contenidos4{
+    flex-direction: row;
+    margin-bottom: 30%;
+  }
+
+  .contenidos5{
+  flex-direction: row;
+  margin-bottom: 30%;
+
+  }
+
+  .contenidos5x{
+    margin-bottom: 0%;
+  }
+
+  .contenidos6{
+  flex-direction: row;
+  margin-bottom: 30%;
+  }
+
+  .contenidos7{
+    flex-direction: row;
+    margin-bottom: 30%;
+  }
+
+  .contenidos8{
+    flex-direction: row;
+    margin-bottom: 30%;
+  }
+
+  .titulo{
+  font-size: 1.6em;
+  }
+
+  .titulo2{
+  font-size: 1.6em;
+  }
+
+
+  .imagen-texto{
+    flex-direction: column;
+  }
+
+  .parrafos{
+  padding-right: 5%;
+  padding-top: 25%;
+  padding-left: 0.5%;
+  text-align: justify;
+  }
+
+
+
+  .imagen1{
+    width: 100%;
+    height: auto;
+    margin-top: 10%;
+  }
+
+  .imagen2{
+    width: 100%;
+    height: auto;
+    padding-top: 0%;
+  }
+
+
+  iframe{
+    width: 250px;
+    height: 200px;
+    margin-top: 10%;
+  }
+  #myImg{
+    margin-top: 10%;
+
+  }
+
+  .introduccion2{
+    width: 80%;
+    padding-bottom: 10%;
+  }
+
+  .parrafos2{
+  padding-right: 5%;
+  padding-top: 20%;
+  padding-left: 0.5%;
+  text-align: justify;
+  }
+}
+
+
+@media screen and (max-width: 1300px) and (min-width: 1023px) {
+
+  .contenidos3{
+    margin-bottom: 120%;
+  }
+
+  .contenidos5{
+    margin-bottom: 80%;
+  }
+
+  .contenidos4{
+    margin-bottom: 60%;
+  }
+
+  .contenidos1024-1{
+    margin-bottom: 40%;
+  }
+
+    .contenidos1024-2{
+      margin-bottom: 90%;
+    }
+    .contenidos1024-3{
+      margin-bottom: 80%;
+    }
+
+
+  .titulo{
+    line-height: 60pt;
+  }
+
+  .titulo1024{
+    line-height: 60pt;
+  }
+
+  .parrafos2{
+    margin-top: 15%;
+  }
+  .parrafos{
+    margin-top: 3%;
+  }
+  .parrafos3{
+    margin-top: 0%;
+  }
+
+  iframe{
+    width: 600px;
+    height: 500px;
+
+  }
+
 }

@@ -135,13 +135,13 @@ text-decoration: none;
 
 
 .introduccion{
-  width: 80%;
+  width: 90%;
   padding-top: 10%;
   padding-bottom: 10%;
 }
 
 .introduccion2{
-  width: 80%;
+  width: 90%;
   padding-top: 10%;
   padding-bottom: 10%;
 }
@@ -151,7 +151,7 @@ text-decoration: none;
 .contenidos{
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 90%;
   height: 70%;
   margin-bottom: 90%;
 }
@@ -159,7 +159,7 @@ text-decoration: none;
 .contenidos2{
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 90%;
   height: 70%;
   margin-bottom: 40%;
 }
@@ -167,7 +167,7 @@ text-decoration: none;
 .contenidos3{
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 90%;
   height: 70%;
   margin-bottom: 100%;
 }
@@ -175,7 +175,7 @@ text-decoration: none;
 .contenidos4{
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 90%;
   height: 70%;
   margin-bottom: 50%;
 }
@@ -183,7 +183,7 @@ text-decoration: none;
 .contenidos5{
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 90%;
   height: 70%;
   margin-bottom: 60%;
 }
@@ -191,7 +191,7 @@ text-decoration: none;
 .contenidos5x{
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 90%;
   height: 70%;
   margin-bottom: 60%;
 }
@@ -199,7 +199,7 @@ text-decoration: none;
 .contenidos6{
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 90%;
   height: 70%;
   margin-bottom: 90%;
 }
@@ -207,7 +207,7 @@ text-decoration: none;
 .contenidos7{
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 90%;
   height: 70%;
   margin-bottom: 70%;
 }
@@ -215,7 +215,7 @@ text-decoration: none;
 .contenidos8{
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 90%;
   height: 70%;
   margin-bottom: 80%;
 }
@@ -225,7 +225,7 @@ text-decoration: none;
 .titulo{
   font-size: 4em;
   font-weight: 900;
-  width: 80%;
+  width: 90%;
   position: absolute;
   color: #000070;
   font-weight: 800;
@@ -234,7 +234,7 @@ text-decoration: none;
 .titulo2{
   font-size: 4em;
   font-weight: 900;
-  width: 80%;
+  width: 90%;
   position: absolute;
   color: #000070;
   font-weight: 800;
@@ -446,6 +446,7 @@ margin-top: 5%;
 
 
   .container{
+    width: 90vw;
     margin-bottom: 10%;
     font-size: 1.5em;
     line-height: 20pt;
@@ -458,7 +459,7 @@ margin-top: 5%;
   }
 
   .title-block{
-    font-size: 1em;
+    font-size: 1.8em;
   }
 
   .logo-work{
@@ -602,7 +603,7 @@ margin-top: 5%;
   }
 
   .title-block{
-    font-size: 1em;
+    font-size: 1.8em;
   }
 
   .logo-work{

@@ -4,6 +4,7 @@
 
 body{
   background-color: #ECECEC;
+  color: #000070;
   font-family: 'Overpass Mono', monospace;
   height: 100vh;
   font-size: 1em;
@@ -21,7 +22,7 @@ body{
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding-left: 2vw;
+  padding-left: 1vw;
   border: solid 1px black;
   border-top: none;
   border-left: none;
@@ -32,7 +33,7 @@ body{
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding-right: 2vh;
+  padding-right: 2vw;
   border-bottom: solid 1px;
 }
 
@@ -49,8 +50,12 @@ main{
   height: 80vh;
 }
 
+.enter a{
+  color: #000070;
+}
+
 .enter a:visited{
-  color: black;
+  color: #000070;
 }
 .enter a:hover{
   font-size: 5em;
@@ -58,57 +63,103 @@ main{
 }
 
 /*Todos estos textos abarcan el footer*/
-.pie{
+.enlinea{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
-  flex: 3;
-  height: 15vh;
-  border-top: solid 1px black;
   width: 100%;
-}
-
-
-.space1{
-  padding-top: 1vh;
+  height: 5vh;
+  position: fixed;
+  bottom: 0;
+  border-top: solid 1px black;
+  background-color: #ECECEC;
 }
 
 .block{
-  width: 100%;
   display: flex;
+  width: 50%;
+  height: 5vh;
+  justify-content: center;
   align-items: center;
-  width: 100%;
-  height: auto;
-  text-decoration: none;
-  color: black;
-}
-.block:visited{
-  color: inherit;
 }
 
-.rrss:hover{
+.border1{
+  border-right: solid 1px black;
+}
+
+.mitad1{
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  border-right: solid 1px black;
+}
+
+.mitad2{
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+}
+
+
+
+.link-foot{
+  text-decoration: none;
+  color: #000070;
+}
+
+.link-foot:hover{
   text-decoration: underline;
 }
 
-.block:hover {
-  background-color: green;
+.link-foot:visited{
+  color: inherit;
 }
 
-.mail:hover {
-  visibility: visible;
-}
-
-.write {
-  display: none;
-}
-
-.write:hover {
-
-}
+@media screen and (max-width: 720px) and (min-width: 320px) {
 
 
-.animation {
-  animation-duration: 3s;
-  animation-name: slidein;
-  animation-iteration-count: infinite;
+  body{
+    font-family: 'Overpass Mono', monospace;
+    height: 100vh;
+    font-size: 0.7em;
+    font-weight: normal;
+    color: #000070;
+  }
+
+  .enter{
+    font-size: 2em;
+  }
+
+  .enlinea{
+    flex-direction: column;
+    height: 10vh;
+    font-size: 1.2em;
+  }
+
+  .mitad1{
+    width: 100%;
+    border-bottom: solid 1px black;
+  }
+
+  .mitad2{
+    width: 100%;
+
+  }
+
+  .block{
+    width: 50%;
+  }
+
+
+  .part1{
+    justify-content: center;
+    font-size: 1.2em;
+
+  }
+  .part2{
+    justify-content: center;
+    padding-right: 0vw;
+    padding-left: 5%;
+  }
+
 }

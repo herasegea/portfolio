@@ -69,6 +69,8 @@ text-decoration: none;
 .logo-work{
   display: block;
   width: 21%;
+  text-align: right;
+  margin-right: 5%;
   position: fixed;
   margin-top: 8vh;
   right: 0;
@@ -442,44 +444,7 @@ margin-top: 5%;
     color: #000070;
   }
 
-  /*Todos estos textos abarcan el footer
-  .enlinea{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-    height: 5vh;
-    position: fixed;
-    bottom: 0;
-    border-top: solid 1px black;
-    background-color: #ECECEC;
-  }
 
-  .block{
-    display: flex;
-    width: 50%;
-    height: 5vh;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .border1{
-    border-right: solid 1px black;
-  }
-
-  .mitad1{
-    display: flex;
-    flex-direction: row;
-    width: 50%;
-    border-right: solid 1px black;
-  }
-
-  .mitad2{
-    display: flex;
-    flex-direction: row;
-    width: 50%;
-  }
-*/
   .enlinea{
     flex-direction: column;
     height: 10vh;

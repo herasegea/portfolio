@@ -480,7 +480,7 @@ margin-top: 5%;
 
   .container{
     width: 100vw;
-    margin-bottom: 10%;
+    margin-bottom: 15vh;
     font-size: 1.5em;
     line-height: 20pt;
     height: auto;
@@ -737,7 +737,7 @@ margin-top: 5%;
 
   .parrafos{
   padding-right: 0%;
-  
+
   padding-left: 0.5%;
   text-align: justify;
   }

@@ -777,7 +777,7 @@ margin-top: 5%;
 @media screen and (max-width: 1300px) and (min-width: 1023px) {
 
   .contenidos3{
-    margin-bottom: 120%;
+    margin-bottom: 150%;
   }
 
   .contenidos5{
@@ -793,10 +793,14 @@ margin-top: 5%;
   }
 
     .contenidos1024-2{
-      margin-bottom: 90%;
+      margin-bottom: 130%;
     }
     .contenidos1024-3{
-      margin-bottom: 80%;
+      margin-bottom: 100%;
+    }
+
+    .contenidos6{
+      margin-bottom: 100%;
     }
 
 

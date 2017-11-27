@@ -68,7 +68,6 @@ text-decoration: none;
 
 .logo-work{
   display: block;
-  float: right;
   width: 21%;
   position: fixed;
   margin-top: 8vh;
@@ -81,21 +80,41 @@ text-decoration: none;
 .enlinea{
   display: flex;
   flex-direction: row;
+  justify-content: center;
   width: 100%;
   height: 5vh;
   position: fixed;
   bottom: 0;
-  border: solid 1px black;
+  border-top: solid 1px black;
   background-color: #ECECEC;
 }
 
 .block{
-  width: 25%;
-  height: 5vh;
   display: flex;
-  align-self: center;
+  width: 50%;
+  height: 5vh;
+  justify-content: center;
   align-items: center;
 }
+
+.border1{
+  border-right: solid 1px black;
+}
+
+.mitad1{
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  border-right: solid 1px black;
+}
+
+.mitad2{
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+}
+
+
 
 .link-foot{
   text-decoration: none;
@@ -110,15 +129,7 @@ text-decoration: none;
   color: inherit;
 }
 
-.border1{
-  border-left: solid 1px black;
-  border-right: solid 1px black;
 
-}
-
-.border2{
-  border-right: solid 1px black;
-}
 
 /*Todos estos textos abarcan el contenido*/
 
@@ -431,8 +442,68 @@ margin-top: 5%;
     color: #000070;
   }
 
+  /*Todos estos textos abarcan el footer
+  .enlinea{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 5vh;
+    position: fixed;
+    bottom: 0;
+    border-top: solid 1px black;
+    background-color: #ECECEC;
+  }
+
+  .block{
+    display: flex;
+    width: 50%;
+    height: 5vh;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .border1{
+    border-right: solid 1px black;
+  }
+
+  .mitad1{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    border-right: solid 1px black;
+  }
+
+  .mitad2{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+  }
+*/
+  .enlinea{
+    flex-direction: column;
+    height: 10vh;
+    font-size: 1.2em;
+  }
+
+  .mitad1{
+    width: 100%;
+    border-bottom: solid 1px black;
+  }
+
+  .mitad2{
+    width: 100%;
+
+  }
+
+  .block{
+    width: 50%;
+  }
+
+
   .part1{
     justify-content: center;
+    font-size: 1.2em;
 
   }
   .part2{

@@ -645,20 +645,23 @@ margin-top: 5%;
 
 
   .container{
+    width: 100vw;
     margin-bottom: 10%;
-    font-size: 1.5em;
+    font-size: 1.7em;
     line-height: 20pt;
     height: auto;
   }
 
 
   .font{
-    font-size: 0.7em;
+    font-size: 0.9em;
   }
 
   .title-block{
     font-size: 1.8em;
+    margin-left: 5%;
   }
+
 
   .logo-work{
     width: 30%;
@@ -667,46 +670,55 @@ margin-top: 5%;
 
   .contenidos{
   flex-direction: row;
+  width: 90%;
   margin-bottom: 30%;
   }
 
   .contenidos2{
   flex-direction: row;
+  width: 90%;
   margin-bottom: 30%;
   }
 
   .contenidos3{
   flex-direction: row;
+  width: 90%;
   margin-bottom: 30%;
   }
 
   .contenidos4{
     flex-direction: row;
+    width: 90%;
     margin-bottom: 30%;
   }
 
   .contenidos5{
   flex-direction: row;
+  width: 90%;
   margin-bottom: 30%;
 
   }
 
   .contenidos5x{
     margin-bottom: 0%;
+    width: 90%;
   }
 
   .contenidos6{
   flex-direction: row;
+  width: 90%;
   margin-bottom: 30%;
   }
 
   .contenidos7{
     flex-direction: row;
+    width: 90%;
     margin-bottom: 30%;
   }
 
   .contenidos8{
     flex-direction: row;
+    width: 90%;
     margin-bottom: 30%;
   }
 
@@ -725,7 +737,7 @@ margin-top: 5%;
 
   .parrafos{
   padding-right: 0%;
-  padding-top: 25%;
+  
   padding-left: 0.5%;
   text-align: justify;
   }

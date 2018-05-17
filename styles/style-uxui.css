@@ -157,7 +157,7 @@ text-decoration: none;
 .introduccion2{
   width: 80%;
   padding-top: 10%;
-  padding-bottom: 10%;
+  padding-bottom: 20%;
   text-align: justify;
 }
 
@@ -209,6 +209,14 @@ text-decoration: none;
   width: 80%;
   height: 70%;
   margin-bottom: 60%;
+}
+
+.contenidos5xy{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 70%;
+  margin-bottom: 48%;
 }
 
 .contenidos6{
@@ -537,6 +545,11 @@ margin-top: 5%;
     width: 90%;
   }
 
+  .contenidos5xy{
+    margin-bottom: 0%;
+    width: 90%;
+  }
+
   .contenidos6{
   flex-direction: row;
   width: 90%;
@@ -584,6 +597,13 @@ margin-top: 5%;
   }
 
   .imagen2{
+    width: 100%;
+    height: auto;
+    padding-top: 0%;
+  }
+
+  .imagen3{
+    margin-top: 10%;
     width: 100%;
     height: auto;
     padding-top: 0%;

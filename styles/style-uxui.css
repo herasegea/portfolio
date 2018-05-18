@@ -300,6 +300,18 @@ text-align: justify;
   padding-top: 10%;
 }
 
+.imagen4{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding-top: 10%;
+}
+
+.imagen4:hover{
+  background-image: url(imagenes/lavestia/prueba_hover.png);
+
+}
+
 
 
 .bold{
@@ -608,6 +620,16 @@ margin-top: 5%;
     height: auto;
     padding-top: 0%;
   }
+
+  .imagen4{
+    width: 100%;
+    height: auto;
+    padding-top: 0%;
+  }
+
+
+
+
 
   .peque{
     width: 30%;

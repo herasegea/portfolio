@@ -211,6 +211,14 @@ text-decoration: none;
   margin-bottom: 60%;
 }
 
+.contenidos5xz{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 70%;
+  margin-bottom: 70%;
+}
+
 .contenidos5xy{
   display: flex;
   flex-direction: column;
@@ -300,16 +308,23 @@ text-align: justify;
   padding-top: 10%;
 }
 
+.imagen3{
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
 .imagen4{
   display: flex;
   width: 100%;
   height: 100%;
-  padding-top: 10%;
+  padding-top: 7%;
 }
 
-.imagen4:hover{
-  background-image: url(imagenes/lavestia/prueba_hover.png);
 
+
+.imagen-cambiente:hover{
+background:
 }
 
 
